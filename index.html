@@ -1,0 +1,44 @@
+<html>
+<head>
+    <title>Deshchitro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>দেশচিত্র</h1>
+            <p>Discover information about countries around the world</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="search-section">
+            <form id="search-form">
+                <div class="search-container">
+                    <input type="text" id="country-input" placeholder="Enter country name..." required>
+                    <button type="submit">Search</button>
+                </div>
+            </form>
+        </section>
+
+        <section id="loading" class="hidden">
+            <div class="loader"></div>
+        </section>
+
+        <section id="error-message" class="hidden">
+            <p>Country not found. Please try another search.</p>
+        </section>
+
+        <section id="results-container">
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 দেশচিত্র | Made With Love By Munim</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
