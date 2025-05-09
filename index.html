@@ -5,17 +5,22 @@
 </head>
 <body>
     <header>
-        <h1><span class="logo">🌐</span>দেশচিত্র | DeshChitro</h1>
+        <h1 onclick="location.href='index.html'" style="cursor:pointer;">
+            <span class="logo">🌐</span>দেশচিত্র | DeshChitro
+        </h1>
     </header>
     <main>
         <form id="countryForm" autocomplete="off">
             <input type="text" id="countryInput" placeholder="Type a country name..." required>
             <button type="submit">🔍 Search</button>
+            <button type="button" id="resetBtn">🔄 Reset</button>
         </form>
         <div id="result"></div>
     </main>
     <footer>
-        <span>&copy; 2025 দেশচিত্র•🧡Made With Love By Munim</span>
+        <div class="footer">
+            &copy; 2025 দেশচিত্র • 🧡 Made With Love By Munim
+        </div>
     </footer>
     <script src="script.js"></script>
 </body>

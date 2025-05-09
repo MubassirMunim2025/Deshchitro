@@ -12,9 +12,9 @@
 * { box-sizing: border-box; }
 
 body {
-    margin:150;
+    margin: 0;
     font-family: 'Segoe UI', 'Montserrat', Arial, sans-serif;
-    min-height: 0vh;
+    min-height: 100vh;
     background: var(--main-bg) fixed;
     color: var(--text);
     display: flex;
@@ -132,6 +132,7 @@ button:hover {
     color: #333c58;
     letter-spacing: 0.2px;
 }
+
 .data-row {
     width: 100%;
     display: flex;
@@ -140,11 +141,13 @@ button:hover {
     padding: 0.17em 0.7em 0.17em 0;
     font-size: 1.09rem;
 }
+
 .label {
     font-weight: 600;
     color: var(--theme-accent);
     margin-right: 1em;
 }
+
 .value {
     font-weight: 500;
     color: #292d39;
@@ -153,20 +156,27 @@ button:hover {
 
 footer {
     text-align: center;
-    padding: 1.7rem 0 1rem 0;
+    padding: 2rem 0 1.5rem 0;
     font-size: 1.1rem;
-    margin-top: bottom;
     color: #ffffff;
     background: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
 }
 
-footer a {
+.footer-brand {
+    font-size: 1.7rem;
+    font-weight: 800;
     color: var(--theme-accent);
-    text-decoration: none;
-    font-weight: bold;
+    letter-spacing: 1px;
 }
 
-footer a:hover { text-decoration: underline; }
+.footer-copy {
+    font-size: 1rem;
+    color: #ffffff;
+}
 
 .not-found {
     color: #d62351;
@@ -178,8 +188,10 @@ footer a:hover { text-decoration: underline; }
     margin-top:1.5rem;
     animation: comeIn .32s both;
 }
+
 ::-webkit-scrollbar{ width:8px;}
 ::-webkit-scrollbar-thumb{ background:rgba(98, 188, 148, .15); border-radius:8px;}
+
 @media (max-width:500px) {
     .country-card{ padding:1.1rem 0.4rem;}
     input[type="text"] { min-width: 110px;}
