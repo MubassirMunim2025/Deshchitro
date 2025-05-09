@@ -1,4 +1,4 @@
-# 🌐 দেশচিত্র | DeshChitro
+# 🌎 দেশচিত্র | DeshChitro
 
 - A clean and minimal country info search web built with **HTML**, **CSS**, and **JavaScript**. 🌍✨
 - https://deshchitro.netlify.app/
