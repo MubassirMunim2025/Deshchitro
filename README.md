@@ -1,6 +1,7 @@
 # 🌐 দেশচিত্র | DeshChitro
 
-A clean and minimal country info search web app built with **HTML**, **CSS**, and **JavaScript**. 🌍✨
+A clean and minimal country info search web built with **HTML**, **CSS**, and **JavaScript**. 🌍✨
+https://deshchitro.netlify.app/
 
 ## 📸 Preview
 
@@ -23,5 +24,5 @@ A clean and minimal country info search web app built with **HTML**, **CSS**, an
 
 ---
 
-##🎨 Credits
+## 🎨 Credits
 Made with ❤️ by Munim
